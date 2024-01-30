@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FABRIKAT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fabricat">FABRICAT</string>
+    <string name="home">Главнае</string>
+    <string name="profile">Профиль</string>
+    <string name="favori">Избранное</string>
+    <string name="search">Я ишу</string>
+    <string name="basket">корзина</string>
+    <string name="email">       Email или номер телефона</string>
+    <string name="save_password">       пароль</string>
+    <string name="comein">Войти</string>
+    <string name="number">       Номер телефона</string>
+    <string name="otcenka">Оценка</string>
+    <string name="title">Title</string>
+    <string name="ot">От</string>
+</resources>

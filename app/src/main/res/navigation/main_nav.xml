@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.fabrikat.presentatin.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/onboardFragment"
+        android:name="com.example.fabrikat.presentatin.onboard.OnboardFragment"
+        android:label="fragment_onboard"
+        tools:layout="@layout/fragment_onboard" />
+    <fragment
+        android:id="@+id/basketFragment"
+        android:name="com.example.fabrikat.BasketFragment"
+        android:label="fragment_basket"
+        tools:layout="@layout/fragment_basket" />
+    <fragment
+        android:id="@+id/registFragment"
+        android:name="com.example.fabrikat.RegistFragment"
+        android:label="fragment_regist"
+        tools:layout="@layout/fragment_regist" />
+    <fragment
+        android:id="@+id/comeinFragment"
+        android:name="com.example.fabrikat.ComeinFragment"
+        android:label="fragment_comein"
+        tools:layout="@layout/fragment_comein" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.fabrikat.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.fabrikat.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.example.fabrikat.addFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" />
+
+</navigation>
